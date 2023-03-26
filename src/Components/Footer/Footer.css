@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    color: #100f0f;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.linksFooter{
+    margin: 0px 15px ;
+    color: #fff;
+}
+
+.copy{
+    font-size: 18px;
+}
