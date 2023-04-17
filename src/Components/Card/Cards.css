@@ -1,0 +1,15 @@
+.TipoCards{
+    border: 1px solid gray;
+    box-shadow: 1px 1px 0px 0px black ;
+    padding: 10px;
+}
+
+.TitleCards{
+    margin: auto;
+    text-align: center;
+}
+
+.ButtonDetail{
+    justify-content: center;
+ 
+}

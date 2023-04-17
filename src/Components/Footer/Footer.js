@@ -14,8 +14,6 @@ const Footer = () => {
         <a className='linksFooter'    href='https://github.com/' ><IoLogoGithub size={30}/></a>
       </div>
      
-      
-
      
     </footer>
     

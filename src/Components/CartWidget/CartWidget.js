@@ -5,7 +5,7 @@ import './CartWidget.css'
 const CartWidget = () => {
   return (
     <>
-     <p> <BsFillCartCheckFill size={25} className='carrito' /> 10 </p> 
+     <p> <BsFillCartCheckFill size={30} className='carrito' /> 10 </p> 
     </>
   
   )
