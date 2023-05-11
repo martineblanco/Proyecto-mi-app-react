@@ -1,8 +1,11 @@
 .TipoCards{
     border: 1px solid gray;
     box-shadow: 1px 1px 0px 0px black ;
+    display: flex;
+    flex-direction: column;
     padding: 10px;
 }
+
 
 .TitleCards{
     margin: auto;

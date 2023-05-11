@@ -9,9 +9,9 @@ const Footer = () => {
          <p>Copyright &copy; 2023</p>
       </div>
       <div>
-        <a className='linksFooter'    href='https://www.instagram.com/' >< IoLogoInstagram size={30} /></a>
-        <a className='linksFooter'    href='https://www.facebook.com/' ><IoLogoFacebook size={30} /></a>
-        <a className='linksFooter'    href='https://github.com/' ><IoLogoGithub size={30}/></a>
+        <a className='linksFooter' target='_blanck'  href='https://www.instagram.com/' >< IoLogoInstagram size={30} /></a>
+        <a className='linksFooter' target='_blanck'  href='https://www.facebook.com/' ><IoLogoFacebook size={30} /></a>
+        <a className='linksFooter' target='_blanck'  href='https://github.com/' ><IoLogoGithub size={30}/></a>
       </div>
      
      

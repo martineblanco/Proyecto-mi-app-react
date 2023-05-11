@@ -1,4 +1,15 @@
 .carrito{
-    margin: auto;
+    margin: 10px 5px 5px 5px;
     color: #fff;
+    
+}
+
+.LinkCarrito{
+    text-decoration: none;
+}
+
+.CarritoNumber{
+    margin-left: 0px;
+    color: #fff;
+  
 }

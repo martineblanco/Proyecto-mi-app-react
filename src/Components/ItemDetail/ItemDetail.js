@@ -6,9 +6,30 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea, CardActions } from '@mui/material';
 import ItemCount from '../ItemCount/ItemCount';
 import './ItemDetail.css'
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
+import { useContext } from 'react';
+import { CartContext } from '../Context/CartContext';
 
 
 const ItemDetail = ({id, name, img, category, description, price, stock }) => {
+  const [quantityAdded, setQuantityAdded] = useState(0)
+
+  const {addItem} = useContext(CartContext)
+
+  const handleOnAdd = (cant) => {
+    setQuantityAdded(cant)
+
+    const item = {
+      id, name, price, category,
+    }
+    
+    addItem(item, cant)
+
+  }
+
+  
   return (
     <Card sx={{ maxWidth: 345 }} className='TipoCards' >
       <CardActionArea>
@@ -39,9 +60,19 @@ const ItemDetail = ({id, name, img, category, description, price, stock }) => {
         </CardContent>
       </CardActionArea>
       <CardActions className='CardsDetailAction'>
-        
-          <ItemCount initial={1} stock={10} onAdd={(quantity)=> console.log('cantidad agregada',quantity)}/>
-       
+
+        {
+          quantityAdded > 0 ? (
+            <Link to='/cart' className='Option'>
+              <Button variant="primary" className='Button'>
+              Terminar Compra
+              </Button>
+            </Link>
+          ) : (
+            <ItemCount initial={1} stock={stock} onAdd={handleOnAdd}/>
+          )
+        }
+  
       </CardActions>
     </Card>
   );

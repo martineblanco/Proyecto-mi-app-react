@@ -1,71 +1,30 @@
-# Getting Started with Create React App
+# Proyecto E-Commerce: Intech Hardware
+### Martin Blanco
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create React App.
+npm start
+La app abre en el puerto: http//localost3000
 
-## Available Scripts
+### Dependencias
+Las dependencias instaladas fueron:
 
-In the project directory, you can run:
+* Material UI (^5.12.0),
+* React Icons (^4.8.0),
+* Boostrap (^5.2.3),
+* react-icons: (^4.8.0)
 
-### `npm start`
+Los mismos fueron utilizados para ayudar a la responsividad del mismo y poder usar algunos estilos o iconos ya definidos. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Por otra parte cabe destacar que no todas las dependencias instaladas son utilizadas en el proyecto. Algunas de ellas fueron instaladas de manera provisoria, para permitir que el proyecto cumpla en tiempo y forma con los desafios establecidos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### my-app
+El E-Commerce es una tienda virtual de insumos de computacion,  en este caso denominado Intech Hardware, para la compra de productos informaticos, con varias categorias a eleccion
 
-### `npm test`
+Esta nos permite filtrar productos a eleccion, seleccionar el producto deseado dirigiendonos a una vista en detalles del producto, donde el usuario pueda conocer todos los detalles del mismo y optar por la cantidad de unidades deseadas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Una vez hecha esta eleccion el producto sera sumado al carrito de compras donde su vista le indica al usuario todos los productos seleccionados, brindando las opciones de "eliminar un producto no deseado" del listado de productos, "limpiar el carrito" o "finalizar la comapra con el checkout".
 
-### `npm run build`
+A continuacion de selecionar "checkout" el usuario debera completar un formulario con los datos solicitados para que el sistema pueda gestionar la compra y guardar la misma en Firestore, este se encaragara de devolver el ID de la compra realiaza por el usuario.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Proyecto-mi-app-react

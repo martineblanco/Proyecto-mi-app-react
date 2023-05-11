@@ -10,13 +10,14 @@ import { Link } from "react-router-dom"
 
 const Cards = ({ id, name, img, price, stock }) => {
   return (
-    <Card sx={{ maxWidth: 345 }} className='TipoCards' >
+    <Card sx={{ maxWidth: 345}} className='TipoCards' >
       <CardActionArea>
         <Typography gutterBottom variant="h5" className='TitleCards'>
           {name}
         </Typography>
 
         <CardMedia
+          className='imageProducts'
           component="img"
           image={img}
           alt="Notebook"

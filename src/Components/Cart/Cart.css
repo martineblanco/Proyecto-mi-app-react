@@ -1,0 +1,28 @@
+.Total{
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.Checkout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 30px; 
+}
+
+.titleProductEmpty{
+    text-align: center;
+    margin: 20px 20px;
+    height: 406px;
+}
+
+.buttonClearCart{
+    margin: 20px 20px;
+    width: 150px;
+}
+
+.buttonCheckout{
+    width: 300px;
+}

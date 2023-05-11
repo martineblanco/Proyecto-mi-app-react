@@ -1,7 +1,13 @@
 .TipoCards{
     margin: 10px;
+    
 }
 
 .CardsDetailAction{
     justify-content: center;
+}
+
+.Button{
+    margin: 5px;
+    width: 12rem;
 }

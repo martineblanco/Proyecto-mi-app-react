@@ -14,10 +14,10 @@
 .Number{
     width: 50rem;
     align-self: center;
+    color: black;
 }
 
 .Button{
     margin: 5px;
     width: 12rem;
-
 }
